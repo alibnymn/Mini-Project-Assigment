@@ -14,9 +14,6 @@ Cara Menjalankan Project
 3. buka di browser http://127.0.0.1:8000/project
 4. Untuk login API dengan Jwt coba di postman ketik http://127.0.0.1:8000/api/auth/login |
    Masukan email : "admin@gmail.com"|
-   Masukan password : "12345678"
+   Masukan password : "12345678"|
 5. Untuk register nya  coba di postman ketik http://127.0.0.1:8000/api/auth/register
-   isikan data nya
-   Masukan name :|
-   Masukan email :|
-   Masukan password :|
+   isikan data nya masukan name, email dan password
