@@ -10,10 +10,11 @@
 Cara Menjalankan Project
 
 1. Buka Project di text editor 
-2. Laku buka comand prompt laku ketikan php artisan serve 
-3. buka di browser http://127.0.0.1:8000/project
-4. Untuk login API dengan Jwt coba di postman ketik http://127.0.0.1:8000/api/auth/login |
+2. Jangan lupa import db nya terlebih dahulu
+3. Laku buka comand prompt laku ketikan php artisan serve 
+4. buka di browser http://127.0.0.1:8000/project
+5. Untuk login API dengan Jwt coba di postman ketik http://127.0.0.1:8000/api/auth/login |
    Masukan email : "admin@gmail.com"|
    Masukan password : "12345678"|
-5. Untuk register nya  coba di postman ketik http://127.0.0.1:8000/api/auth/register
+6. Untuk register nya  coba di postman ketik http://127.0.0.1:8000/api/auth/register
    isikan data nya masukan name, email dan password
