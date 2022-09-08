@@ -18,9 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes(); 
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('project', 'App\Http\Controllers\ProjectController@data');
 Route::get('project/add', 'App\Http\Controllers\ProjectController@add');
 Route::post('/project','App\Http\Controllers\ProjectController@store');
